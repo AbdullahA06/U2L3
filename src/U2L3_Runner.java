@@ -16,7 +16,7 @@ public class U2L3_Runner {
         int sumOfPeri =  r1.calculatePerimeter() + r2.calculatePerimeter()+ r3.calculatePerimeter();
         int sumOfArea= +r1.calculateArea()+ r1.calculateArea()+ r1.calculateArea();
 
-        System.out.print("You will need about " +sumOfPeri+"ft of fencing and about "+sumOfArea+" square feet of seeding.");
+        System.out.print("You will need about " +sumOfPeri+" feet of fencing and about "+sumOfArea+" square feet of seeding.");
 
 
     }
