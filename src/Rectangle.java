@@ -71,11 +71,22 @@
             return area;
         }
 
+        //perimeter calculator
+        public int calculatePerimeter()
+        {
+            int perimeter = (width * 2)+ (length*2);
+            return perimeter;
+        }
+
+        public void printPerimeter() {
+            System.out.println("It has an perimeter of " + calculatePerimeter());
+        }
         // Prints the Rectangle's dimensions
         public void printRectangleInfo()
         {
             System.out.println("This rectangle's length is " + length + " and width is " + width + ".");
             System.out.println("It has an area of " + calculateArea());
+
         }
     }
 
